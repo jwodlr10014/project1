@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal; 
+}
+@font-face {
+     font-family: 'S-CoreDream-6Bold';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+     font-weight: 600;
+     font-style: normal; 
+}
+@font-face {
+     font-family: 'S-CoreDream-8Heavy';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+     font-weight: 800;
+     font-style: normal; 
+}
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    transition: all 0.5s;
+}
+.load{
+    width: 100vw;
+    height: 100vh;
+    animation: load 10.9s forwards;
+    z-index: 1;
+}
+@keyframes load{
+        0%{
+        opacity: 1;
+        }
+        99% {
+        opacity: 1;
+        }
+         100% {
+        opacity: 0;
+        display: none;
+        }
+    }
+body{
+    background: linear-gradient(#181F2E, #4D6494);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+header{
+    width: 1392px;
+    margin: 40px auto 0px;
+    padding-bottom: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fff;  
+    text-align: center;
+    color: #fff;
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    justify-content: center;
+}
+.header-line1{
+    width: 115px;
+    height: 3px;
+    background-color: #fff;
+}
+.header-line2{
+    width: 115px;
+    height: 3px;
+    background-color: #fff;
+}
+.circle{
+    width: 2400px;
+    height: 2400px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -2;
+    left: -1740px;
+    top: -70%;
+    background: linear-gradient(#FEA330 10%, #FDFBCE);
+}
+.btn1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.btn1:hover,
+.btn2:hover{
+    background-color: #fff;
+    color: #323232;
+}
+.btn2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 45%;
+    right: 4%;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.head h1{
+    margin : 0px;
+    font-family: 'S-CoreDream-8Heavy';
+}
+div p{
+    margin: 0px;
+}
+.mid{
+    width: 1392px;
+    margin: 40px auto;
+    height: 748px;
+    display: flex;
+    gap: 60px;
+}
+.mid2{
+    color: #fff;
+}
+.img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 563px;
+}
+.card{
+    position: absolute;
+}
+.cookie{
+   position: absolute;
+   top: 10%;
+}
+
+.name{
+    font-family: 'S-CoreDream-6Bold';
+    color: #E2C290;
+}
+.product{
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+    margin-bottom: 38px;
+}
+.product h1{
+    font-size: 32px;
+}
+.product p{
+    font-size: 20px;
+    font-family: 'S-CoreDream-3Light';
+}
+.product2{
+    font-size: 22px;
+    width: 770px;
+}
+.mid2-line{
+    width: 2px;
+    height: 90px;
+    background-color: #fff;
+    margin: 40px 0px;
+}
+.product3{
+    width: 770px;
+    text-align: justify;
+    font-family: 'Pretendard-ExtraLight';
+}
+.product3 p{
+    font-size: 20px;
+}
+.mid3{
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mid3-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+    </style>
+</head>
+<img class="load" src="퓨바뽑기.gif">
+<body>
+    <div class="circle"></div>
+    <div class="btn1">Before</div>
+    <div class="btn2">Next</div>
+    <header>
+    <div class="header-line1"></div>
+    <div class="head">
+        <h1>쿠키런 킹덤</h1>
+        <p>COOKIERUN : KINGDOM</p>
+    </div>
+    <div class="header-line2"></div>
+    </header>
+
+      <div class="mid">
+        <div class="img">
+            <img class="card" src="card.png">
+            <img class="cookie" src="cookie1.gif" width="530px">
+        </div>
+
+        <div class="mid2">
+        <div class="product">
+            <h1 class="name">퓨어바닐라 쿠키</h1>
+            <p>ANCIENT COOKIE</p>
+        </div>
+        <div class="product2">
+            <p class="kor">"평화롭고 소중한 바닐라 왕국, 영원히 지키고 싶어."</p>
+            <p class="eng">"Peaceful and precious Vanilla Kingdom, I want to protect it forever."</p>
+        <div>
+            <div class="mid2-line"></div>
+            <div class="mid3">
+                <div class="product3"><p class="introduction">자연의 축복을 듬뿍 받은 우유크림과 향긋한 바닐라열매가 들어간 아주 포근한 쿠키. 사르르 부드러워 어디에나 잘 어울리는 바닐라처럼, 친절하고 상냥한 퓨어바닐라 쿠키와는 누구나 친구가 될 수 있다. 작은 잘못은 마음의 눈으로 이해해주고, 고귀한 치유의 빛으로 상처 입은 쿠키와 동물들을 치료해 준다고. 타고난 마법의 힘을 모두를 위해 쓰고 싶다며 단맛이 쏙 빠진 슈가프리로드를 몇 날 며칠 걸으며 수행한 일화는 유명하다. 길 위에서 무엇을 깨달은 것인지, 찬란한 후광과 함께 돌아온 퓨어바닐라 쿠키는 자유와 학문의 도시인 바닐라 왕국을 세워 온 세상의 쿠키들에게 사랑과 평화를 베풀었다. 어둠도 물러날 것 같은 온화한 미소 뒤에, 친구들을 위해 기꺼이 한 몸 바칠 결의가 담겨있는 걸 아는 쿠키는 별로 없다.</p>
+                </div>
+                <div class="mid3-img">
+                    <img class="cookie-img1" src="cookie101.jpg">
+                    <img class="cookie-img2" src="cookie102.jpg">
+                    <img class="cookie-img3" src="cookie103.jpg">
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <script src="principle.js"></script> 
+</body>
+</html>
